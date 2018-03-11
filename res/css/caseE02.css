@@ -1,0 +1,15 @@
+body {
+  background-color: #ffffff;
+  font-family: Verdana, Arial, Helvetica,sans-serif;
+  font-size: 14px;
+}
+
+
+#level4 #timer {
+  text-align: right;
+  border: 1px solid #ccc;
+  width: 70px;
+  text-align: center;
+}
+
+

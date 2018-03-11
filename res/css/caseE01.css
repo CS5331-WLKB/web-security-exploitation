@@ -1,0 +1,87 @@
+body {
+  background-color: #ffffff;
+  font-family: Verdana, Arial, Helvetica,sans-serif;
+  font-size: 14px;
+}
+
+#level3 {
+  font-family: Helvetica, Verdana, sans-serif;
+  color: #333;
+  width: 580px;
+}
+#level3 #header { 
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#level3 #header img {
+  position: relative;
+  top: -9px;
+  left: 2px;
+
+}
+
+#level3 #header {
+  position: relative;
+  z-index: 40;
+  margin-bottom: 5px;
+  height: 50px;
+  color: #187eff;
+}
+
+#level3 #logo {
+  float: left;
+}
+
+#level3 #header span {
+  display: inline-block;
+  padding-top: 15px;
+  padding-left: 10px;
+}
+
+#level3 .tab {
+  display: inline-block;
+  border-width: 2px 2px 0px 2px;
+  border-style: solid;
+  border-color: #eee;
+  background-color: #ddd;
+  padding: 3px 30px;
+  cursor: pointer;
+  font-weight: bold;
+  color: white;
+  text-shadow: #666 0.1em 0.1em 0.2em;
+}
+
+#level3 .tab:nth-child(2) {
+  /* background-color: #03af11; */
+  background-color: #aaa;
+}
+
+#level3 .tab:nth-child(3) {
+  /* background-color: #e6182f; */
+  background-color: #666;
+}
+
+#level3 .tab:nth-child(4) {
+  /* background-color: #ffc533; */
+  background-color: #333;
+}
+#level3 .tab.active {
+  text-shadow: black 0.1em 0.1em 0.3em;
+}
+
+#level3 #tabContent {
+  border-width: 2px 2px 2px 2px;
+  border-style: solid;
+  border-color: #ccc;
+  width: 568px;
+  margin-right: 5px;
+  height: 190px;
+  padding: 4px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  overflow-y: scroll;
+}
+
+
